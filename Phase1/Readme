@@ -1,0 +1,21 @@
+[system programming project 4]
+
+
+myshell {c,h}
+
+execute:
+	make를 통해 컴파일 후, shellex 실행파일로 실행시킨다. 
+	CSE20171700-SP-P#4> 가 화면에 출력되고, 명령어를 입력한다.	
+command:
+	(1) cd / cd.. / cd (dir name)
+	(2) cat 
+		- cat (empty) : terminate by Ctrl + d
+		- cat > (filename) : delete existing contents and write
+				     save by Ctrl + d
+		- cat >> (filename) : append existing contents
+				      save by Ctrl + d
+	(3) mkdir, rmdir (dir name)
+	(4) ls, ls -al ...
+	(5) touch (file name)
+	(6) echo (str or $environment variable)
+ 	(7) exit
